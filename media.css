@@ -1,0 +1,666 @@
+
+/* Large desktops and laptops */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    
+    /* HEADER */
+    header {
+        padding: 20px 40px 0 40px;
+     }
+
+     .header-icon {
+        width: 160px;
+     }
+
+     .header-second-block-telefon {
+        margin-right: 10px;
+     }
+
+     .header-first-block {
+        width: 560px;
+    }
+    .header-first-block-text {
+        width: 430px;
+    }
+
+
+    /*MAIN*/
+
+    main {
+        padding: 0 40px;
+    }
+
+    /*1-st SECTION*/
+
+    .first-block {
+        height: 550px;
+    }
+
+    .first-block-left-side {
+        padding: 90px 0 0 50px;
+    }
+
+    .first-block h2 {
+        font-size: 39px;
+        width: 500px;
+    }
+    
+    .first-block-search input {
+        width: 440px;
+    }
+
+    .first-block p {
+        font-size: 26px;
+    }
+
+    .first-block-right-side {
+        width: 380px;
+        background-position: -90px 100px, 0 390px;
+    }
+
+/*3-d SECTION*/
+
+    .third-block-left-side-first-line {
+         width: 325px;
+    }
+
+    .third-block-right-side {
+        gap: 20px;
+    }
+
+    .third-block-right-side-card1, 
+    .third-block-right-side-card2, 
+    .third-block-right-side-card4, 
+    .third-block-right-side-card5 {
+        margin-right: unset;
+    }
+
+    .third-block-right-side-card4 {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 961px) and (max-width: 1024px) {
+
+    /* HEADER */
+    
+    header {
+        padding: 20px 40px 0 40px;
+    }
+
+    .header-first-block {
+        width: 525px;
+    }
+
+    .header-first-block-text {
+        width: 400px;
+        font-size: 21px;
+    }
+
+    .header-second-block-telefon {
+        margin-right: 10px;
+    }
+
+    .header-icon {
+        width: 150px;
+     }
+
+      /*MAIN*/
+
+    main {
+        padding: 0 40px;
+    }
+
+    /*1-st SECTION*/
+
+    .first-block {
+        height: 550px;
+    }
+
+    .first-block-left-side {
+        padding: 90px 0 0 50px;
+    }
+
+    .first-block h2 {
+        font-size: 39px;
+        width: 500px;
+    }
+    
+    .first-block-search input {
+        width: 440px;
+    }
+
+    .first-block p {
+        font-size: 26px;
+    }
+
+    .first-block-right-side {
+        width: 380px;
+        background-position: -80px 160px, 0px 350px;
+    }
+
+    /*2-d section*/
+
+    .second-block-card {
+        width: 100%;
+    }
+
+    /*3-d SECTION*/
+
+    .third-block-left-side-first-line {
+        width: 315px;
+   }
+
+   .third-block-right-side {
+       gap: 20px;
+   }
+
+   .third-block-right-side-card1, 
+   .third-block-right-side-card2, 
+   .third-block-right-side-card4, 
+   .third-block-right-side-card5 {
+       margin-right: unset;
+   }
+
+   .third-block-right-side-card4 {
+       margin-bottom: 20px;
+   }
+
+    .third-block-right-side-card1,
+    .third-block-right-side-card2,
+    .third-block-right-side-card3,
+    .third-block-right-side-card4, 
+    .third-block-right-side-card5, 
+    .third-block-right-side-card6 {
+       width: 250px;
+   }
+
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 769px) and (max-width: 960px) {
+
+    /* HEADER */
+    
+    header {
+        padding: 20px 30px 0 30px;
+        display: block;
+    }
+
+    .header-first-block {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .header-second-block {
+        justify-content: end;
+    }
+
+    .header-first-block-text {
+        width: 540px;
+    }
+    /*MAIN*/
+
+    main {
+        padding: 0 30px;
+    }
+
+    /*1-st SECTION*/
+
+    .first-block {
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 630px;
+    }
+
+    .first-block-left-side {
+        padding: 50px 0 0 50px;
+    }
+
+    .first-block h2 {
+        font-size: 39px;
+        width: auto;
+        margin-right: 20px;
+    }
+    
+    .first-block-search input {
+        width: 580px;
+        margin-bottom: 20px;
+    }
+
+    .first-block p {
+        font-size: 26px;
+    }
+
+    .first-block-right-side {
+        width: auto;
+        background-position: 70px 0px, 125px 200px;
+        background-size: 80%, 62%;
+    }
+
+      /*2-nd SECTION*/
+
+    .second-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-block-card {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .second-block-card-text h2 {
+        font-style: normal;
+        font-size: 35px;
+    }
+
+    .second-block-card-text p {
+        max-width: unset;
+        font-size: 30px;
+    }
+
+     /*3-d SECTION*/
+
+     .third-block {
+        flex-direction: column;
+
+     }
+
+     aside {
+         width: 100%;
+         margin-bottom: 20px;
+
+    }
+
+   .third-block-left-side-first-line {
+        width: 100%;
+   }
+
+   .third-block-left-side-first-line-text,
+   .third-block-left-side-second-line-text,
+   .third-block-left-side-third-line-text,
+   .third-block-left-side-fourth-line-text {
+        font-size: 35px;
+   }
+
+   .third-block-right-side {
+       gap: 20px;
+   }
+
+   .third-block-right-side-card1, 
+   .third-block-right-side-card2, 
+   .third-block-right-side-card4, 
+   .third-block-right-side-card5 {
+       margin-right: unset;
+   }
+
+   .third-block-right-side-card4 {
+       margin-bottom: 20px;
+   }
+
+    .third-block-right-side-card1,
+    .third-block-right-side-card2,
+    .third-block-right-side-card3,
+    .third-block-right-side-card4, 
+    .third-block-right-side-card5, 
+    .third-block-right-side-card6 {
+       width: 250px;
+   }
+}
+
+
+
+/* Landscape phones and portrait tablets */
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    
+    /* HEADER */
+    
+    header {
+        padding: 20px 30px 0 30px;
+        display: block;
+    }
+        
+    .logo {
+        justify-content: center;
+        width: auto;
+    }
+
+    .logo-image2 {
+        left: 245px;
+    }
+
+    .header-first-block {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .header-second-block {
+        justify-content: end;
+    }
+
+    .header-first-block-text {
+        width: auto;
+        font-size: 21px;
+    }
+
+    .logo-image2 {
+        transform: translate(-14px, 10px);
+        position: unset;
+    }
+
+    /*MAIN*/
+
+    main {
+        padding: 0 30px;
+    }
+
+    /*1-st SECTION*/
+
+    .first-block {
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 630px;
+    }
+
+    .first-block-left-side {
+        padding: 20px 0 0 20px;
+    }
+
+    .first-block h2 {
+        font-size: 35px;
+        width: auto;
+        margin-right: 20px;
+        line-height: 1.2;
+    }
+    
+    .first-block-search input {
+        width: 580px;
+        margin-bottom: 20px;
+    }
+
+    .first-block p {
+        font-size: 26px;
+    }
+
+    .first-block-search-button {
+        width: 116px;
+        transform: translate(-59px, 2px);
+    }
+
+    .first-block-right-side {
+        width: unset;
+        background-position: 10px 0px, 100px 150px;
+        background-size: 90%, 62%;
+    }
+    
+      /*2-nd SECTION*/
+
+      .second-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-block-card {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .second-block-card-text h2 {
+        font-style: normal;
+        font-size: 23px;
+    }
+
+    .second-block-card-text p {
+        max-width: unset;
+    }
+     /*3-d SECTION*/
+
+     .third-block {
+        flex-direction: column;
+
+     }
+
+     aside {
+         width: 100%;
+         margin-bottom: 20px;
+         
+    }
+
+   .third-block-left-side-first-line {
+        width: 100%;
+   }
+
+   .third-block-left-side-first-line-text,
+   .third-block-left-side-second-line-text,
+   .third-block-left-side-third-line-text,
+   .third-block-left-side-fourth-line-text {
+        font-size: 35px;
+   }
+
+   .third-block-right-side {
+       gap: 20px;
+   }
+
+   .third-block-right-side-card1, 
+   .third-block-right-side-card2, 
+   .third-block-right-side-card4, 
+   .third-block-right-side-card5 {
+       margin-right: unset;
+   }
+
+   .third-block-right-side-card4 {
+       margin-bottom: 20px;
+   }
+
+    .third-block-right-side-card1,
+    .third-block-right-side-card2,
+    .third-block-right-side-card3,
+    .third-block-right-side-card4, 
+    .third-block-right-side-card5, 
+    .third-block-right-side-card6 {
+       width: 250px;
+   }
+}
+
+
+
+/* Landscape phones and smaller */
+     
+@media (max-width: 480px) and (min-width: 320px) {
+
+    
+    /* HEADER */
+    
+    header {
+        padding: 20px 20px 0 20px;
+        display: block;
+    }
+        
+    .logo {
+        justify-content: center;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .header-first-block {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .header-second-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-first-block-text {
+        width: auto;
+        font-size: 26px;
+        display: unset;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+    
+    .logo-image2 {
+        transform: translate(-14px, 10px);
+        position: unset;
+    }
+
+    .header-icon {
+        order: 1;
+        margin-bottom: 20px;
+        width: 240px;
+    }
+
+    .header-second-block-telefon {
+        order: 2;
+        margin-right: 0;
+    }
+
+    /*MAIN*/
+
+    main {
+        padding: 0 20px;
+    }
+
+    /*1-st SECTION*/
+
+    .first-block {
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 480px;
+    }
+
+    .first-block-left-side {
+        padding: 20px 0 0 20px;
+    }
+
+    .first-block h2 {
+        font-size: 30px;
+        width: auto;
+        margin-right: 20px;
+        line-height: 1;
+    }
+    
+    .first-block-search input {
+        width: 245px;
+        height: 40px;
+        padding-right: 60px;
+        margin-bottom: 20px;
+        padding-left: 5px;
+    }
+
+    .first-block p {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .first-block-search-button {
+        transform: translate(-41px, 2px);
+        height: 37px;
+    }
+
+    .first-block-right-side {
+        width: auto;
+        background-position: 10px 0px, 70px 110px;
+        background-size: 90%, 62%;
+    }
+
+    .first-block-search-button i {
+        margin: 10px;
+    }
+
+     /*2-nd SECTION*/
+
+     .second-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-block-card {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .second-block-card-text h2 {
+        font-style: normal;
+        font-size: 23px;
+    }
+
+    .second-block-card-text p {
+        max-width: unset;
+    }
+
+    .second-block-image1,
+    .second-block-image2 {
+        width: 100%;
+    }
+
+    .second-block-card-image3 {
+        width: 75%;
+    }
+
+
+     /*3-d SECTION*/
+
+     .third-block {
+        flex-direction: column;
+
+     }
+
+     aside {
+         width: 100%;
+         margin-bottom: 20px;
+         
+    }
+
+   .third-block-left-side-first-line {
+        width: 100%;
+   }
+
+   .third-block-left-side-first-line-text,
+   .third-block-left-side-second-line-text,
+   .third-block-left-side-third-line-text,
+   .third-block-left-side-fourth-line-text {
+        font-size: 20px;
+   }
+
+   .third-block-right-side {
+       gap: 20px;
+   }
+
+   .third-block-right-side-card1, 
+   .third-block-right-side-card2, 
+   .third-block-right-side-card4, 
+   .third-block-right-side-card5 {
+       margin-right: unset;
+   }
+
+    .third-block-right-side-card1,
+    .third-block-right-side-card2,
+    .third-block-right-side-card3,
+    .third-block-right-side-card4, 
+    .third-block-right-side-card5, 
+    .third-block-right-side-card6 {
+       width: 250px;
+   }
+
+   .third-block-left-side-first-line i,
+   .third-block-left-side-second-line i, 
+   .third-block-left-side-third-line i, 
+   .third-block-left-side-fourth-line i {
+    margin-right: 10px;
+    font-size: 17px;
+   }
+}
